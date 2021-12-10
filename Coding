@@ -1,0 +1,92 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class Shoes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int size;
+		int size1= 35;
+		int size2= 36;
+		int size3 = 37;
+		String name;
+		String sets;
+		/*
+		String setA = "Black shoes";
+		String setB = "Red shoes";
+		String setC = "White shoes";
+		String setD = "Yellow shoes";
+		String setE = "Black shoes with design";
+		String setF = "Red shoes with design";
+		String setG = "White shoes with design";
+		String setH = "Yellow shoes with design";
+		String setI = "Red shoes + White shoes";
+		String setJ = "Black shoes + White shoes";
+		String setK = "Yellow shoes + Black shoes";
+		String setL = "Black shoes + White shoes + Red shoes";
+		String setM = "Yellow shoes + Black shoes + Red shoes";
+		String setN = "(Red shoes + White shoes)Design";
+		String setO= "(Black shoes + White shoes)Design";
+		String setP= "(Yellow shoes + Black shoes)Design";
+		String setQ= "(Black shoes + White shoes + Red shoes)Design";
+		String setR= "(Black shoes + White shoes + Red shoes)Design";
+		*/
+		Scanner sc = new Scanner(System.in);
+
+	System.out.println("****RAYYAN'S SHOES SHOP****");
+	
+	System.out.println("\t");
+
+	System.out.println("*****Plain shoes with no discount*****");
+	System.out.println("setA= Black Shoes :RM60.00");
+	System.out.println("setB= White shoes :RM75.00");
+	System.out.println("setC= Red Shoes :RM80.00");
+	System.out.println("setD= Yellow shoes : RM85.00");
+	
+	System.out.println("\t");
+	
+	System.out.println("*****Plain shoes with discount 10%*****");
+	System.out.println("setI= Red shoes + White shoes :RM139.50");
+	System.out.println("setJ= Black shoes + White shoes :RM121.50");
+	System.out.println("setK= Yellow shoes + Black shoes :RM130.50");
+	System.out.println("setL= Black shoes + White shoes + Red shoes :RM193.50");
+	System.out.println("setM= Yellow shoes + Black shoes + Red shoes :RM202.5.0");
+	
+	System.out.println("\t");
+	
+	System.out.println("*****Design shoes with no discount*****");
+	System.out.println("setE= Black shoes with design :RM90.00");
+	System.out.println("setF= Red shoes with design :RM95.00");
+	System.out.println("setG= White shoes with design :RM100.00");
+	System.out.println("setH= Yellow shoes with design :RM110.00");
+	
+	System.out.println("\t");
+	
+	System.out.println("*****Design shoes with 10% discount*****");
+	System.out.println("setN= (Red shoes + White shoes)Design :RM166.50");
+	System.out.println("setO= (Black shoes + White shoes)Design :RM171.00");
+	System.out.println("setP= (Yellow shoes + Black shoes)Design :RM180.50");
+	System.out.println("setQ= (Black shoes + White shoes + Red shoes)Design :RM256.50");
+	System.out.println("setR= (Black shoes + White shoes + Red shoes)Design :RM265.50");
+	
+	System.out.println("\t");
+	
+	System.out.println("*****");
+	
+	System.out.println("PLEASE ENTER YOUR NAME:");
+	name = sc.nextLine();
+	
+	System.out.println("Enter your shoes size:");
+	size = sc.nextInt();
+	
+	System.out.println("Enter your chosen set:");
+	sets = sc.next();
+	
+	
+	
+	
+	
+	}
+
+}
