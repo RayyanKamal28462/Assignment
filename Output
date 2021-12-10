@@ -1,3 +1,4 @@
+
 ****RAYYAN'S SHOES SHOP****
 	
 *****Plain shoes with no discount*****
@@ -11,7 +12,7 @@ setI= Red shoes + White shoes :RM139.50
 setJ= Black shoes + White shoes :RM121.50
 setK= Yellow shoes + Black shoes :RM130.50
 setL= Black shoes + White shoes + Red shoes :RM193.50
-setM= Yellow shoes + Black shoes + Red shoes :RM202.5.0
+setM= Yellow shoes + Black shoes + Red shoes :RM202.50
 	
 *****Design shoes with no discount*****
 setE= Black shoes with design :RM90.00
@@ -20,16 +21,16 @@ setG= White shoes with design :RM100.00
 setH= Yellow shoes with design :RM110.00
 	
 *****Design shoes with 10% discount*****
-setN= (Red shoes + White shoes)Design :RM166.50
+setN= (Red shoes + White shoes)Design :RM175.50
 setO= (Black shoes + White shoes)Design :RM171.00
 setP= (Yellow shoes + Black shoes)Design :RM180.50
 setQ= (Black shoes + White shoes + Red shoes)Design :RM256.50
-setR= (Black shoes + White shoes + Red shoes)Design :RM265.50
+setR= (Black shoes + White shoes + Yellow shoes)Design :RM270.00
 	
 *****
 PLEASE ENTER YOUR NAME:
-I
+rayyan
 Enter your shoes size:
-36
+37
 Enter your chosen set:
-setA
+setF
