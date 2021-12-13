@@ -1,36 +1,104 @@
-
-****RAYYAN'S SHOES SHOP****
+---0`~`0---SPORT SHOES SHOP---0`~`0---
 	
-*****Plain shoes with no discount*****
-setA= Black Shoes :RM60.00
-setB= White shoes :RM75.00
-setC= Red Shoes :RM80.00
-setD= Yellow shoes : RM85.00
+********SIZE FOR WOMEN********
+*30-33 = Total price + RM1.00*
+*34-37 = Total price + RM2.00*
+*38-41 = Total price + RM3.00*
+******************************
 	
-*****Plain shoes with discount 10%*****
-setI= Red shoes + White shoes :RM139.50
-setJ= Black shoes + White shoes :RM121.50
-setK= Yellow shoes + Black shoes :RM130.50
-setL= Black shoes + White shoes + Red shoes :RM193.50
-setM= Yellow shoes + Black shoes + Red shoes :RM202.50
+*********SIZE FOR MEN*********
+*37-40 = Total price + RM3.00*
+*41-44 = Total price + RM4.00*
+*45-48 = Total price + RM5.00*
+******************************
 	
-*****Design shoes with no discount*****
-setE= Black shoes with design :RM90.00
-setF= Red shoes with design :RM95.00
-setG= White shoes with design :RM100.00
-setH= Yellow shoes with design :RM110.00
+^^^^^^^^^^^^^^^^^^^^^DESIGN^^^^^^^^^^^^^^^^^^^^^
+^Plain with chosen colour            = RM60.00 ^
+^Stripe                              = RM80.00 ^
+^Air max                             = RM100.00^
+^Autumn Travel                       = RM150.00^
+^Limited edition(UV cahnging color)  = RM200.00^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 	
-*****Design shoes with 10% discount*****
-setN= (Red shoes + White shoes)Design :RM175.50
-setO= (Black shoes + White shoes)Design :RM171.00
-setP= (Yellow shoes + Black shoes)Design :RM180.50
-setQ= (Black shoes + White shoes + Red shoes)Design :RM256.50
-setR= (Black shoes + White shoes + Yellow shoes)Design :RM270.00
+-----------------BRANDS AND TYPE-----------------
+| Adidas   |-Football    |Price design + RM2.00 |
+|          |-Hiking      |                      |
+|          |-Daily wear  |                      |
+|__________|_____________|______________________|
+|Puma      |-Flats       |Price design + RM2.50 |
+|          |-Runners     |                      |
+|          |-Kicks       |                      |
+|__________|_____________|______________________|
+|Skechers  |-Works       |Price design + RM3.00 |
+|          |-Runners     |                      |
+|          |-Hiking      |                      |
+|__________|_____________|______________________|
+|Nike      |-Football    |Price design + RM3.20 |
+|          |-Skate       |                      |
+|          |-Gym         |                      |
+|__________|_____________|______________________|
+|Line7     |-Cycling     |Price design + RM3.50 |
+|          |-Jogging     |                      |
+|          |-Tennis      |                      |
+|__________|_____________|______________________|
 	
-*****
-PLEASE ENTER YOUR NAME:
-rayyan
+-----------------------SETS WITH ANY BRANDS------------------------
+___________________________________________________________________
+|    Set   |                     LIST                             |
+|__________|______________________________________________________|
+|     A    |-Plain and Stripe only                                |
+|__________|______________________________________________________|
+|     B    |-Autumn Travel and Stripe only                        |
+|__________|______________________________________________________|
+|     C    |-Air max only                                         |
+|__________|______________________________________________________|
+|     D    |-Limited edition only                                 |
+|__________|______________________________________________________|
+|     E    |-PREMIUM (ADIDAS AND PUMA brands only with any design |
+|__________|______________________________________________________|
+	
+---------------------------------SETS THAT COME WITH OFFERS--------------------------------
+___________________________________________________________________________________________
+|    Set   |           OPFFERS                       |       PRICE                        |
+|__________|_________________________________________|____________________________________|
+|     A    |-Buy 1, Free 1                           |Price set A + RM0                   |
+|__________|_________________________________________|____________________________________|
+|     B    |-Buy 2 gets 30% off for second shoes     |Price set B + (price set B * 30%)   |
+|__________|_________________________________________|____________________________________|
+|     C    |-Buy 3 gets limited free gifts worth RM50| Price set C + free gifts           |
+|__________|_________________________________________|____________________________________|
+|     D    |-Buy 2 gets to wear test any brands      | Price set D + RM5.00               |
+|          | by add RM5.00                           |                                    |
+|__________|_________________________________________|____________________________________|
+|     E    |-Get member ship card                    | Price set E + (RM 10.00)           |
+|__________|_________________________________________|____________________________________|
+-----------------------CALCULATION FOR PRICE-----------------------
+___________________________________________________________________
+|    Set   |                Formula Price                         |
+|__________|______________________________________________________|
+|     A    |(RM60.00 OR RM 80.00) + RM0                           |
+|__________|______________________________________________________|
+|     B    |RM150.00 + (RM80 * 30%) OR RM80 + (RM150 *30%)        |
+|__________|______________________________________________________|
+|     C    |RM150.00 * 3 + FREE GIFTS                             |
+|__________|______________________________________________________|
+|     D    |(RM200.00 * 2) + RM5.00                               |
+|__________|______________________________________________________|
+|     E    |(RM60.00 OR RM 80.00 OR RM100.00 OR RM150.00          |
+|          |   OR RM200.00) + RM10.00                             |
+|__________|______________________________________________________|
+	
+Please enter your name:
+ALIA
+Enter your gender
+WOMEN
 Enter your shoes size:
 37
+Your wanted design:
+STRIPE
+Enter brand(type):
+puma(flats)
 Enter your chosen set:
-setF
+setA
+Total Price 
+RM84.50
