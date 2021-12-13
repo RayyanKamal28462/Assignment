@@ -6,104 +6,136 @@ public class Shoes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String name,gender,sets,design,brand;
 		int size;
-		int size1= 35;
-		int size2= 36;
-		int size3 = 37;
-		double pricesetA;
-		double pricesetB;
-		double pricesetC;
-		double pricesetD;
-		double pricesetE;
-		double pricesetF;
-		double pricesetG;
-		double pricesetH;
-		double pricesetI;
-		double pricesetJ;
-		double pricesetK;
-		double pricesetL;
-		double pricesetM;
-		double pricesetN;
-		double pricesetO;
-		double pricesetP;
-		double pricesetQ;
-		double pricesetR;
-		String name;
-		String sets;
-		/*
-		String setA = "Black shoes";
-		String setB = "Red shoes";
-		String setC = "White shoes";
-		String setD = "Yellow shoes";
-		String setE = "Black shoes with design";
-		String setF = "Red shoes with design";
-		String setG = "White shoes with design";
-		String setH = "Yellow shoes with design";
-		String setI = "Red shoes + White shoes";
-		String setJ = "Black shoes + White shoes";
-		String setK = "Yellow shoes + Black shoes";
-		String setL = "Black shoes + White shoes + Red shoes";
-		String setM = "Yellow shoes + Black shoes + Red shoes";
-		String setN = "(Red shoes + White shoes)Design";
-		String setO= "(Black shoes + White shoes)Design";
-		String setP= "(Yellow shoes + Black shoes)Design";
-		String setQ= "(Black shoes + White shoes + Red shoes)Design";
-		String setR= "(Black shoes + White shoes + Red shoes)Design";
-		*/
+		double price;
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("---0`~`0---SPORT SHOES SHOP---0`~`0---");
+	
+		System.out.println("\t");
 
-	System.out.println("****RAYYAN'S SHOES SHOP****");
-	
-	System.out.println("\t");
+		System.out.println("********SIZE FOR WOMEN********");
+		System.out.println("*30-33 = Total price + RM1.00*");
+		System.out.println("*34-37 = Total price + RM2.00*");
+		System.out.println("*38-41 = Total price + RM3.00*");
+		System.out.println("******************************");
+		
+		System.out.println("\t");
+		
+		System.out.println("*********SIZE FOR MEN*********");
+		System.out.println("*37-40 = Total price + RM3.00*");
+		System.out.println("*41-44 = Total price + RM4.00*");
+		System.out.println("*45-48 = Total price + RM5.00*");
+		System.out.println("******************************");
+		
+		System.out.println("\t");
 
-	System.out.println("*****Plain shoes with no discount*****");
-	System.out.println("setA= Black Shoes :RM60.00");
-	System.out.println("setB= White shoes :RM75.00");
-	System.out.println("setC= Red Shoes :RM80.00");
-	System.out.println("setD= Yellow shoes : RM85.00");
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^DESIGN^^^^^^^^^^^^^^^^^^^^^");
+		System.out.println("^Plain with chosen colour            = RM60.00 ^");
+		System.out.println("^Stripe                              = RM80.00 ^");
+		System.out.println("^Air max                             = RM100.00^");
+		System.out.println("^Autumn Travel                       = RM150.00^");
+		System.out.println("^Limited edition(UV cahnging color)  = RM200.00^");
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+		
+		System.out.println("\t");
+
+		System.out.println("-----------------BRANDS AND TYPE-----------------");
+		System.out.println("| Adidas   |-Football    |Price design + RM2.00 |");
+		System.out.println("|          |-Hiking      |                      |");
+		System.out.println("|          |-Daily wear  |                      |");
+		System.out.println("|__________|_____________|______________________|");
+		System.out.println("|Puma      |-Flats       |Price design + RM2.50 |");
+		System.out.println("|          |-Runners     |                      |");
+		System.out.println("|          |-Kicks       |                      |");
+		System.out.println("|__________|_____________|______________________|");
+		System.out.println("|Skechers  |-Works       |Price design + RM3.00 |");
+		System.out.println("|          |-Runners     |                      |");
+		System.out.println("|          |-Hiking      |                      |");
+		System.out.println("|__________|_____________|______________________|");
+		System.out.println("|Nike      |-Football    |Price design + RM3.20 |");
+		System.out.println("|          |-Skate       |                      |");
+		System.out.println("|          |-Gym         |                      |");
+		System.out.println("|__________|_____________|______________________|");
+		System.out.println("|Line7     |-Cycling     |Price design + RM3.50 |");
+		System.out.println("|          |-Jogging     |                      |");
+		System.out.println("|          |-Tennis      |                      |");
+		System.out.println("|__________|_____________|______________________|");
+
+		System.out.println("\t");
+
+		System.out.println("-----------------------SETS WITH ANY BRANDS------------------------");
+		System.out.println("___________________________________________________________________");
+		System.out.println("|    Set   |                     LIST                             |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     A    |-Plain and Stripe only                                |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     B    |-Autumn Travel and Stripe only                        |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     C    |-Air max only                                         |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     D    |-Limited edition only                                 |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     E    |-PREMIUM (ADIDAS AND PUMA brands only with any design |");
+		System.out.println("|__________|______________________________________________________|");
+		
+		System.out.println("\t");
+
+		System.out.println("---------------------------------SETS THAT COME WITH OFFERS--------------------------------");
+		System.out.println("___________________________________________________________________________________________");
+		System.out.println("|    Set   |           OPFFERS                       |       PRICE                        |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		System.out.println("|     A    |-Buy 1, Free 1                           |Price set A + RM0                   |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		System.out.println("|     B    |-Buy 2 gets 30% off for second shoes     |Price set B + (price set B * 30%)   |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		System.out.println("|     C    |-Buy 3 gets limited free gifts worth RM50| Price set C + free gifts           |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		System.out.println("|     D    |-Buy 2 gets to wear test any brands      | Price set D + RM5.00               |");
+		System.out.println("|          | by add RM5.00                           |                                    |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		System.out.println("|     E    |-Get member ship card                    | Price set E + (RM 10.00)           |");
+		System.out.println("|__________|_________________________________________|____________________________________|");
+		
+		System.out.println("-----------------------CALCULATION FOR PRICE-----------------------");
+		System.out.println("___________________________________________________________________");
+		System.out.println("|    Set   |                Formula Price                         |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     A    |(RM60.00 OR RM 80.00) + RM0                           |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     B    |RM150.00 + (RM80 * 30%) OR RM80 + (RM150 *30%)        |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     C    |RM150.00 * 3 + FREE GIFTS                             |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     D    |(RM200.00 * 2) + RM5.00                               |");
+		System.out.println("|__________|______________________________________________________|");
+		System.out.println("|     E    |(RM60.00 OR RM 80.00 OR RM100.00 OR RM150.00          |");
+		System.out.println("|          |   OR RM200.00) + RM10.00                             |");
+		System.out.println("|__________|______________________________________________________|");
+				
+		System.out.println("\t");
+
+		System.out.println("Please enter your name:");
+		name = sc.nextLine();
 	
-	System.out.println("\t");
+		System.out.println("Enter your gender");
+		gender = sc.nextLine();
 	
-	System.out.println("*****Plain shoes with discount 10%*****");
-	System.out.println("setI= Red shoes + White shoes :RM139.50");
-	System.out.println("setJ= Black shoes + White shoes :RM121.50");
-	System.out.println("setK= Yellow shoes + Black shoes :RM130.50");
-	System.out.println("setL= Black shoes + White shoes + Red shoes :RM193.50");
-	System.out.println("setM= Yellow shoes + Black shoes + Red shoes :RM202.50");
+		System.out.println("Enter your shoes size:");
+		size = sc.nextInt();
+		
+		System.out.println("Your wanted design:");
+		design =sc.next();
 	
-	System.out.println("\t");
+		System.out.println("Enter brand(type):");
+		brand = sc.next();
 	
-	System.out.println("*****Design shoes with no discount*****");
-	System.out.println("setE= Black shoes with design :RM90.00");
-	System.out.println("setF= Red shoes with design :RM95.00");
-	System.out.println("setG= White shoes with design :RM100.00");
-	System.out.println("setH= Yellow shoes with design :RM110.00");
-	
-	System.out.println("\t");
-	
-	System.out.println("*****Design shoes with 10% discount*****");
-	System.out.println("setN= (Red shoes + White shoes)Design :RM175.50");
-	System.out.println("setO= (Black shoes + White shoes)Design :RM171.00");
-	System.out.println("setP= (Yellow shoes + Black shoes)Design :RM180.50");
-	System.out.println("setQ= (Black shoes + White shoes + Red shoes)Design :RM256.50");
-	System.out.println("setR= (Black shoes + White shoes + Yellow shoes)Design :RM270.00");
-	
-	System.out.println("\t");
-	
-	System.out.println("*****");
-	
-	System.out.println("PLEASE ENTER YOUR NAME:");
-	name = sc.nextLine();
-	
-	System.out.println("Enter your shoes size:");
-	size = sc.nextInt();
-	
-	System.out.println("Enter your chosen set:");
-	sets = sc.next();
-	
-	
-	
-	
+		System.out.println("Enter your chosen set:");
+		sets = sc.next();
+		
+		System.out.println("Total Price ");
+		price = sc.nextDouble();
 	
 	}
 
