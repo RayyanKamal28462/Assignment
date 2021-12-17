@@ -11,7 +11,7 @@ public class Shoes {
 		double price;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("---0`~`0---SPORT SHOES SHOP---0`~`0---");
+		System.out.println("---0`~`0---RAYYAN SPORT SHOES SHOP---0`~`0---");
 	
 		System.out.println("\t");
 
@@ -36,7 +36,7 @@ public class Shoes {
 		System.out.println("^Stripe                              = RM80.00 ^");
 		System.out.println("^Air max                             = RM100.00^");
 		System.out.println("^Autumn Travel                       = RM150.00^");
-		System.out.println("^Limited edition(UV cahnging color)  = RM200.00^");
+		System.out.println("^Limited edition(UV changing color)  = RM200.00^");
 		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 		
 		System.out.println("\t");
@@ -114,8 +114,9 @@ public class Shoes {
 		System.out.println("|          |   OR RM200.00) + RM10.00                             |");
 		System.out.println("|__________|______________________________________________________|");
 		System.out.println("THE PRICE FOR SIZE AND DESIGN WILL BE ADDED AFTER THE CALCULATION FOR PRICE");
-	
+				
 		System.out.println("\t");
+		
 
 		System.out.println("Please enter your name:");
 		name = sc.nextLine();
